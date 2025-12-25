@@ -218,7 +218,7 @@ body {
   font-family: "Just Another Hand", cursive;
   font-size: 1.5em;
   font-weight: 200;
-  color: #4B0082;
+  color: #4b0082;
   font-weight: bold;
 }
 
@@ -401,6 +401,33 @@ section {
 .hero-image img:hover {
   transform: translateY(-8px);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* Center homepage profile and primary content */
+.hero-section .container {
+  justify-content: center;
+  text-align: center;
+}
+.hero-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  justify-content: center;
+  text-align: center;
+}
+.personal-info-card {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-grid {
+  justify-items: center;
 }
 
 .social-links {
@@ -823,7 +850,7 @@ section {
   display: none;
   position: fixed;
   right: 15px;
-  color: #4B0082;
+  color: #4b0082;
   border: none;
   padding: 10px;
   border-radius: 50%;
@@ -843,7 +870,6 @@ section {
   border-radius: 175px/187px;
   filter: blur(235px);
 } */
-
 
 /* Responsive breakpoints */
 @media (max-width: 1024px) {
@@ -875,7 +901,7 @@ section {
 }
 
 /* --- RESPONSIVENESS (Mobile/Tablet) --- */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .container {
     padding: 0 15px;
   }
