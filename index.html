@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <div class="logo">Lumi</div>
+      <nav id="navMenu">
+        <a href="#hero-section">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#education-section">Education</a>
+        <a href="#projects-section">Projects</a>
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero-section" id="hero-section">
+      <div class="container">
+        <div class="hero-image">
+          <img src="profile.jpg" alt="Sovan Ey Phon professional portrait" />
+        </div>
+        <div class="hero-content">
+          <h1>Hello, I'm Sovan Ey</h1>
+          <p>
+            I'm a Software Engineering student who enjoys creating simple,
+            modern web pages. I focus on clean UI, smooth user experience, and
+            building designs that work well on any device. My goal is to make
+            every project clear, fast, and easy to use.
+          </p>
+          <div class="social-links">
+            <p>
+              Find me on: 
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-telegram"></i> 
+              <i class="fab fa-facebook-f"></i>
+            </p>
+          </div>
+          <a href="#contact-section" class="btn-primary">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-me-section" id="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="subtitle">
+          Get to know more about my journey and story behind me
+        </p>
+
+        <hr class="section-divider" />
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3 class="who-am-i">Who am I?</h3>
+            <p>
+              I'm a Software Engineering student in my 2nd year, passionate
+              about creating innovative solutions through code. My journey in
+              tech started with curiosity and has grown into a deep commitment
+              to building meaningful applications.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="image-border">
+              <img
+                src="about_me.jpg"
+                alt="Sovan Ey Phon professional portrait"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="personal-info-container">
+          <h4 class="info-label">
+            <i class="fas fa-info-circle"></i> Personal Info
+          </h4>
+          <div class="personal-info-card">
+            <div class="info-column">
+              <div class="info-item">
+                <i class="fas fa-id-card"></i>
+                <div>
+                  <span class="label">Name:</span>
+                  <span class="value">Sovan Ey Phon</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-calendar-alt"></i>
+                <div>
+                  <span class="label">Date of birth:</span>
+                  <span class="value">April, 16, 2006</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <span class="label">Place of Birth:</span>
+                  <span class="value">Kandal, Cambodia</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-column">
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <span class="label">Email:</span>
+                  <span class="value">phonsovaney8@gmail.com</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <span class="label">Phone:</span>
+                  <span class="value">+855 70 76 36 30</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <span class="label">Education:</span>
+                  <span class="value">CADT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section bg-ellipse" id="education-section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <p class="subtitle">My academic journey and continuous learning</p>
+
+        <!-- <hr class="section-divider"> -->
+        <div class="content-box">
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-period"
+                >2013 - 2018: Study at Secondary School</span
+              >
+              <p class="timeline-institution">
+                Hun Sen Prek Ta Doung Secondary School
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-period"
+                >2019 - 2024: Study at High School</span
+              >
+              <p class="timeline-institution">
+                Bun Rany Hun Sen Prek Ta Doung High School
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-period">2024: High School Diploma</span>
+              <p class="timeline-institution">Prek Ta Doung High School</p>
+            </div>
+
+            <div class="timeline-item current-study">
+              <span class="timeline-period"
+                >2024 - Now: Bachelor of Software Engineering</span
+              >
+              <p class="timeline-institution">
+                Cambodia Academy Digital Technology
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="content-box">
+          <div id="project-carousel">
+            <hr class="section-divider" />
+            <div class="project-card active-project" data-project-index="0">
+              <h3>Project 1: Personal Portfolio</h3>
+              <div class="project-image-wrapper">
+                <img
+                  src="portfolio.png"
+                  width="100%"
+                  alt="Screenshot of Personal Portfolio Project"
+                />
+              </div>
+            </div>
+
+            <div class="project-card" data-project-index="1">
+              <h3>Project 2: Small ecommerce website</h3>
+              <div class="project-image-wrapper">
+                <img
+                  src="small_website.png"
+                  alt="Screenshot of Small Ecommerce Website Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="project-navigation">
+            <button class="btn-secondary" id="prev-btn" disabled>
+              Previous
+            </button>
+            <button class="btn-primary" id="next-btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section bg-ellipse" id="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="subtitle">
+          Have a question or want to work together? Feel free to reach out!
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <div class="contact-details-box">
+              <h3>Contact Information</h3>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i> Email: phonsovaney8@gmail.com
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i> Phone: +855 70 76 36 30
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i> Location: Phnom Penh,
+                Cambodia
+              </div>
+            </div>
+
+            <div class="lets-connect-box">
+              <h3>Let's Connect</h3>
+              <p>
+                I'm always open to discussing new projects, creative ideas, or
+                opportunities to be part of your vision.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-form-col">
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="your-name">Your Name *</label>
+                  <input
+                    type="text"
+                    id="your-name"
+                    placeholder="Jonh"
+                    required
+                  />
+                </div>
+
+                <div class="input-group">
+                  <label for="your-email">Your Email *</label>
+                  <input
+                    type="email"
+                    id="your-email"
+                    placeholder="jonh@gmail.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="input-group full-width">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  placeholder="Tell me your problem"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-send-message">
+                Sent Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container footer-grid">
+        <div class="footer-col footer-about">
+          <h4>Portfolio</h4>
+          <p>
+            A passionate Software Engineering student dedicated to building
+            innovative solutions and creating meaningful impact through
+            technology.
+          </p>
+        </div>
+
+        <div class="footer-col footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-connect">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="section-divider light" />
+      <div class="footer-bottom">
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+        <p>Made by a Software Engineering Student</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
