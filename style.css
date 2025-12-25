@@ -268,8 +268,9 @@ section {
 
 .about-me-section,
 .education-section,
-.projects-section {
-  padding-top: 50px;
+.projects-section 
+.contact-section{
+  padding-top: 90px;
   padding-bottom: 50px;
 }
 
